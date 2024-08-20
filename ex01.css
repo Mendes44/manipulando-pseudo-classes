@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.topo {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-size: 22px;
+}
+
+.capa-img  img {
+    width: 100%;
+}
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-weight: bold;
+    margin: 30px;
+}
+
+p {
+    margin: 30px;
+}
+
+a {
+    margin: 30px
+}
+
+a:visited {
+    color: green;
+}
+
+ul {
+    margin-left: 50px;
+}
+
+.container-cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.container-cards h3 {
+    text-align: left;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 2px;
+}
+
+.cards img {
+    width: 300px;
+}
+
+.tres-imagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 5px;
+    padding: 2px;
+}
+
+.tres-imagens img {
+    width: 300px;
+}
+
+.cards img:hover {
+    border: 5px solid blue;
+}
+
+.tres-imagens img:hover {
+    border: 5px solid blue;
+}

@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5700cb;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 90px;
+}
+
+.titulo-logo {
+    margin: 0 10px;
+}
+
+.logo-destaque {
+    font-weight: bold;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+main {
+    width: 100%;
+}
+
+section {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.limitar-area {
+    max-width: 1024px;
+}
+
+h1, h2 {
+    width: 100%;
+    text-align: center;
+
+    padding: 25px 0;
+    font-size: 25px;
+}
+
+.banner {
+    width: 100%;
+}
+
+p {
+    line-height: 32px;
+}
+
+.quem-somos p:last-of-type {
+    display: inline;
+    padding: 10px 5px;
+    /* width: 550px; */
+    background-color: #9154e3;
+}
+
+table {
+    width: 100%;
+    margin: 25px 0;
+    background-color: #dfdfdf;
+}
+
+thead {
+    background-color: #5a5a5a;
+}
+
+th, td {
+    padding: 6px;
+    color: #fff;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: #5700cb;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #9154e3;
+}
+
+
+
+
+
+
+
+/* 
+
+.topo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: blueviolet;
+}
+
+.topo h1 {
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.topo h1 span {
+    font-weight: bold;
+}
+
+.secao1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.secao1 img {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.secao2 {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.secao2 h2 {
+    text-align: center;
+}
+
+.secao2 p {
+    margin: 0 auto;
+    margin: 20px;
+}
+
+.secao2 p:last-of-type {
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+.secao3 {
+    padding: 10px;
+    width: 100%;
+}
+
+.secao3 h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+.secao3 p {
+   padding: 10px;
+   font-size: 20px;
+}
+
+table {
+    margin: 25px 0;
+    width: 100%;
+    background-color: #dfdfdf;
+}
+thead {
+    background-color: #5a5a5a;
+}
+
+th, td {
+    padding: 6px;
+    background-color: #fff;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #5700cb;
+}
+
+tbody tr:nth-of-type(odd){
+    background-color: #9154e3;
+}
+
+
+.rodape {
+    text-align: center;
+    color: white;
+    background-color: blueviolet;
+    padding: 10px;
+} */

@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div:nth-of-type(even) {
+    background-color: yellow;
+}
+
+div:nth-of-type(odd){
+    background-color: green;
+}
+
+div {
+    width: 400px;
+}
