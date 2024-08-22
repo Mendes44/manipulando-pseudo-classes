@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #0ea6ed;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+.titulo-logo {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 25px 0 0 0;
+}
+
+div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 25px 0 0 0;
+}
+
+article {
+    text-align: center;
+}
+
+section {
+    max-width: 950px;
+    margin: 32px auto;
+}
+
+section::first-line {
+    font-style: italic;
+}
+
+p::first-letter {
+    font-size: 32px;
+}
+
+p {
+    line-height: 32px;
+}
